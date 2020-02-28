@@ -1,0 +1,115 @@
+@media screen and (max-width:1024px) {
+    @media screen and (orientation:portrait) /*Animation of regular mode for mobiles*/
+    {
+
+        body {
+            background-color: #016087;
+        }
+
+        #stopFlowMobile {
+            display: none;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #rotateAnimation {
+            width: 80vw;
+            height: 60vh;
+            display: block;
+            margin: auto;
+            position: relative;
+            top: 30vh;
+        }
+
+        #rotateText {
+            font-size: 300%;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px black;
+            border-top: 3vh solid #D52C82;
+            border-bottom: 3vh solid #D52C82;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            margin: 0;
+        }
+    }
+
+    @media screen and (orientation:landscape)  /*State for land mode mobiles*/
+    {
+        #rotateAnimation, #rotateText {
+            display: none;
+        }
+
+        #stopFlowMobile {
+            overflow: hidden;
+            position: relative;
+        }
+
+        #purpuleLineBox {
+            position: unset;
+            margin-top: 10vh;
+        }
+        
+        
+        #purpuleLine1 {
+            margin-bottom: 20px;
+        }
+        
+        
+        #purpuleLine2 {
+            margin-bottom: 20px;
+        }
+        
+        #purpuleLine3 {
+            margin-bottom: 20px;
+        }
+        
+        #purpuleLine4 {
+            margin-bottom: 20px;
+        }
+        
+        #purpuleLine5 {
+            margin-bottom: 20px;
+        }
+
+        .buttonMobile {
+            position: relative;
+            bottom: 0.8vh;
+        }
+
+        .moreButton {
+            border: 7px double rgb(37, 92, 163);
+        }
+
+        #apple {
+            top: 100vh;
+        }
+
+        #tomato {
+            top: 250vh;
+            width: 50vw;
+            height: 55vh;
+        }
+
+        #submit {
+            width: 10vw;
+            height: 9vh;
+        }
+
+        #boxIframes {
+            margin-left: 8vw;
+        }
+
+        iframe {
+            width: 27%;
+            border: 5px solid black;
+        }
+
+        footer>p {
+            font-size: 140%;
+            top: 0.5vh;
+        }
+    }
+} 
